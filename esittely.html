@@ -8,20 +8,34 @@
     <title>Yerba maten esittely</title>
 </head>
 <body>
-    <main>
-    <nav>
-        <ul>
-        <!-- We have used a list tag that is 'ul' to list the items-->
-        <ul id="horBar">
-          <li><a href="index.html">Etusivu</a></li>
-          <li><a href="Esittely.html">Esittely</a></li>
-          <li><a href="Miksi juoda yerba matea.html">Yerba maten hyödyt</a></li>
-          <li><a href="Välineet ja kulttuuri.html">Välineet ja kulttuuri</a></li>
-          <li><a href="Suosituksia ja mistä aloittaa.html">Suosituksia ja mistä aloitta</a></li>
-          
-        </ul>
-    </main>
-      </nav>
+  <nav>
+  <style>
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      display: block;
+      padding: 15px 25px;
+      text-align: center;
+      background-color: rgb(189, 185, 185);
+      color: #464141;
+      margin: 0;
+      font-family: sans-serif;
+    }
+    nav a:hover {
+      background-color: #777777;
+      color: #ffffff;
+    }
+  </style>
+  </nav>
+    <a href="index.html">Etusivu</a> |
+    <a href="Esittely.html">Esittely</a> |
+    <a href="Miksi juoda yerba matea.html">Yerbamaten hyödyt</a> |
+    <a href="Välineet ja kulttuuri.html">Välineet ja kulttuuri</a>
+    <a href="Suosituksia ja mistä aloittaa.html">Mistä aloittaa</a>
+  </nav>
     <div>yerba mate on kasvi Etelä-Amerikasta, blaa blaa</div>
 
 </body>
