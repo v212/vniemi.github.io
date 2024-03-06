@@ -5,8 +5,19 @@ body {
   h1 {
     color: black;
   }
-  p {
+  article.a {
+    text-indent: 25%;
     color: black;
+    padding: 5px px;
+
+  }
+  
+    article.b {
+      text-indent: 25%;
+      color: black;
+      padding: 5px px;
+    
+    
   }
 /* Add a black background color to the top navigation */
 .topnav {
