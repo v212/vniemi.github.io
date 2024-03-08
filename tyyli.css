@@ -49,6 +49,13 @@ body {
     overflow:visible;
 
   }
+
+  .kuvat {
+    margin: 30%;
+    width: 40%;
+    height: 0%;
+    size: 100%;
+  }
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
