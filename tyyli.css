@@ -1,6 +1,6 @@
 body {
-  background-color: #B9DA91
-  ;
+  background-color: #B9DA91;
+  
   }
   h1 {
     color: black;
@@ -42,20 +42,55 @@ body {
     color:black;
     font-size: 120%;
     background-color:  #B9DA91;
-    width: 60%;
+    width: 200px;
     height: 100%;
     margin: 15%;
 
     overflow:visible;
 
   }
-
-  .kuvat {
-    margin: 30%;
-    width: 40%;
-    height: 0%;
-    size: 100%;
+  kuvat{
+    max-width: 400px;
+    height: 400px;
   }
+
+
+  .flex-container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #69f542;
+    margin: 1%;
+    height: 100%;
+    min-height: 100%;
+    width: px;
+    align-items: left;
+    height: 40%;
+    flex-grow: 1;
+    
+  }
+  .flex-container>div{
+    margin-inline-start: 0%;
+    
+    width: 1px;
+    text-align: left;
+    line-height: 80%;
+    min-height: 700px;
+    max-height: 100%;
+    
+    flex-grow: 1;
+    
+    
+  }
+  .flex-item:nth-of-type(1){
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column-reverse;
+    
+    align-self: center;
+    float: left;
+  }
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -70,6 +105,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin: 0%;
 }
 
 /* Change the color of links on hover */
