@@ -49,9 +49,11 @@ body {
     overflow:visible;
 
   }
-  kuvat{
-    max-width: 400px;
-    height: 400px;
+  img{
+    width: 30%;
+    height: 30%;
+    
+    
   }
 
 
@@ -85,10 +87,10 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column-reverse;
     
-    align-self: center;
-    float: left;
+    
+    
+    
   }
 
 /* Add a black background color to the top navigation */
